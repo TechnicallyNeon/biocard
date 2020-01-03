@@ -143,7 +143,7 @@ public class CharacterSheet
 				graphics.drawImage(ImageIO.read(new File("evoicon1.png")), 1460, 51, null);
 				graphics.drawString(lvlup1, 1484 - graphics.getFontMetrics().stringWidth(lvlup1)/2, 
 						122 + graphics.getFontMetrics().getHeight());
-				if (condEvo != null && condEvoPos == 1)
+//				if (condEvo != null && condEvoPos == 1)
 //					graphics.drawString(condEvo, 1484 - graphics.getFontMetrics().stringWidth(condEvo)/2, 
 //							185);
 				break;
@@ -227,8 +227,6 @@ public class CharacterSheet
 							template.setRGB(i, j, (avgColor.getAlpha() << 24) + (avgColor.getRed() << 16)
 									+ (avgColor.getGreen() << 8) + (avgColor.getBlue()));
 						}
-						if (degree == 0)
-							template.setRGB(0, 0, 0);
 					}
 					else if (j < (m * i + blendWidth/2)) // Makes rest of the card other type
 					{
@@ -237,8 +235,8 @@ public class CharacterSheet
 								+ (color.getGreen() << 8) + (color.getBlue()));
 					}
 			
-			for (int i = 1485; i < 1878; i++)
-				for (int j = 464; j < 1054; j++)
+			for (int i = 1485; i < 1879; i++)
+				for (int j = 464; j < 1055; j++)
 					template.setRGB(i, j, new Color(0, 0, 0, 0).getRGB());
 		}
 		catch (Exception e) // Check at what point the image processing failed
