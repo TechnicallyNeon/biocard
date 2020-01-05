@@ -42,8 +42,8 @@ public class GridLayoutGui extends JFrame
 	
 	private static final String[] GENDER_RATIO = 
 		{
-			"1 to 1", "1 to 3", "3 to 1", "7 to 1", "Only Female",
-			"Only Male", "None"
+			"1 to 1", "1 to 3", "3 to 1", "7 to 1", "Female Only",
+			"Male Only", "None"
 		};
 	
 	private static ArrayList<String> abilityName, abilityDesc;

@@ -1,2 +1,2 @@
-stats 1 1 1 1 1 1
+stats 12 12 12 12 12 12
 folder Desktop
