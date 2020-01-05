@@ -1,8 +1,2 @@
-evoicon1.png
-evoicon2.png
-item1.png
-item2.png
-profile.png
-stage1.png
-stage2.png
-stage3.png
+*.png
+components/data.txt
