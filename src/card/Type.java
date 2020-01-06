@@ -5,9 +5,9 @@ public enum Type
 	/*
 	 * List of all potential types with respective strings given
 	 */
-	NORMAL("normal"), FIRE("fire"), FIGHTING("fighting"), WATER("water"), FLYING("flying"), GRASS("grass"), POISON("posion"), ELECTRIC("electric"),	
-	GROUND("ground"), PSYCHIC("psychic"), ROCK("rock"), ICE("ice"), BUG("bug"), DRAGON("dragon"), GHOST("ghost"), DARK("dark"), STEEL("steel"), 
-	FAIRY("fairy"), NULL("normal");
+	NORMAL("Normal"), FIRE("Fire"), FIGHTING("Fighting"), WATER("Water"), FLYING("Flying"), GRASS("Grass"), POISON("Posion"), 
+	ELECTRIC("Electric"), GROUND("Ground"), PSYCHIC("Psychic"), ROCK("Rock"), ICE("Ice"), BUG("Bug"), DRAGON("Dragon"), 
+	GHOST("Ghost"), DARK("Dark"), STEEL("Steel"), FAIRY("Fairy"), NULL("Normal");
 	
 	/**
 	 * String form of Type used to determine how the card should be colored
@@ -30,5 +30,16 @@ public enum Type
 	public String getType()
 	{
 		return typeName;
+	}
+	
+	public static String[] getAllTypes()
+	{
+		String[] arr = {
+			"Normal", "Fire", "Fighting", "Water", "Flying",
+			"Grass", "Poison", "Electric", "Ground", "Psychic",
+			"Rock", "Ice", "Bug", "Dragon", "Ghost", "Dark",
+			"Steel", "Fairy"
+		};
+		return arr;
 	}
 }
