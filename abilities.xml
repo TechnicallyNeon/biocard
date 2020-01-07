@@ -387,7 +387,7 @@
 			its ability.</description>
 	</ability>
 	<ability>
-		<name>Natual Cure</name>
+		<name>Natural Cure</name>
 		<description>All status problems heal when it switches out.
 		</description>
 	</ability>
@@ -400,6 +400,10 @@
 		<name>Normalize</name>
 		<description>All of this Pokémon's moves become the Normal type.
 		</description>
+	</ability>
+	<ability>
+		<name>None</name>
+		<description></description>
 	</ability>
 	<ability>
 		<name>Overcoat</name>
