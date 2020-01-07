@@ -122,7 +122,7 @@
 	</ability>
 	<ability>
 		<name>Flare Boost</name>
-		<description> Boosts the power of special moves by 50% if this Pokémon is burned.</description>
+		<description>Boosts the power of special moves by 50% if this Pokémon is burned.</description>
 	</ability>
 	<ability>
 		<name>Flash Fire</name>
@@ -194,7 +194,7 @@
 	</ability>
 	<ability>
 		<name>Ice Body</name>
-		<description> This Pokémon regains HP 1/16th of its max HP per turn in hail, and takes no damage from hailstorms.</description>
+		<description>This Pokémon regains HP 1/16th of its max HP per turn in hail, and takes no damage from hailstorms.</description>
 	</ability>
 	<ability>
 		<name>Illuminate</name>
@@ -346,8 +346,7 @@
 	</ability>
 	<ability>
 		<name>Overgrow</name>
-		<description>Powers up Grass type moves by 50% when this Pokémon's HP
-			is at a third or lower.</description>
+		<description>Powers up Grass type moves by 50% when this Pokémon's HP is at a third or lower.</description>
 	</ability>
 	<ability>
 		<name>Own Tempo</name>
@@ -503,7 +502,7 @@
 	</ability>
 	<ability>
 		<name>Solid Rock</name>
-		<description> Reduces damage from supereffective attacks by 25%.</description>
+		<description>Reduces damage from supereffective attacks by 25%.</description>
 	</ability>
 	<ability>
 		<name>Soundproof</name>
@@ -575,7 +574,7 @@
 	</ability>
 	<ability>
 		<name>Teravolt</name>
-		<description> Moves can be used regardless of Abilities.</description>
+		<description>Moves can be used regardless of Abilities.</description>
 	</ability>
 	<ability>
 		<name>Thick Fat</name>
@@ -603,7 +602,7 @@
 	</ability>
 	<ability>
 		<name>Turboblaze</name>
-		<description> Moves can be used regardless of Abilities.</description>
+		<description>Moves can be used regardless of Abilities.</description>
 	</ability>
 	<ability>
 		<name>Unaware</name>
