@@ -2,13 +2,11 @@
 <abilities>
 	<ability>
 		<name>Adaptability</name>
-		<description>Boosts the same type attack bonus from 1.5x to 2x.
-		</description>
+		<description>Boosts the same type attack bonus from 1.5x to 2x.</description>
 	</ability>
 	<ability>
 		<name>Aftermath</name>
-		<description>Damages the attacker after being knocked out.
-		</description>
+		<description>Damages the attacker after being knocked out.</description>
 	</ability>
 	<ability>
 		<name>Air Lock</name>
@@ -16,18 +14,15 @@
 	</ability>
 	<ability>
 		<name>Analytic</name>
-		<description>Boosts move power by 30% when the Pokémon moves last.
-		</description>
+		<description>Boosts move power by 30% when the Pokémon moves last.</description>
 	</ability>
 	<ability>
 		<name>Anger Point</name>
-		<description>Maxes the Attack stat after the Pokémon takes a critical
-			hit.</description>
+		<description>Maxes the Attack stat after the Pokémon takes a critical hit.</description>
 	</ability>
 	<ability>
 		<name>Anticipation</name>
-		<description>Senses an opposing Pokémon's super effective moves.
-		</description>
+		<description>Senses an opposing Pokémon's super effective moves.</description>
 	</ability>
 	<ability>
 		<name>Arena Trap</name>
@@ -35,33 +30,27 @@
 	</ability>
 	<ability>
 		<name>Bad Dreams</name>
-		<description>At the end of each turn, sleeping opponent take 1/8 of
-			its maximum HP in damage.</description>
+		<description>At the end of each turn, sleeping opponent take 1/8 of its maximum HP in damage.</description>
 	</ability>
 	<ability>
 		<name>Battle Armor</name>
-		<description>This Pokémon is protected against critical hits.
-		</description>
+		<description>This Pokémon is protected against critical hits.</description>
 	</ability>
 	<ability>
 		<name>Big Pecks</name>
-		<description>Protects this Pokémon from Defense-lowering attacks.
-		</description>
+		<description>Protects this Pokémon from Defense-lowering attacks.</description>
 	</ability>
 	<ability>
 		<name>Blaze</name>
-		<description>Powers up Fire type moves by 50% when this Pokémon's HP
-			is at a third or lower.</description>
+		<description>Powers up Fire type moves by 50% when this Pokémon's HP is at a third or lower.</description>
 	</ability>
 	<ability>
 		<name>Chlorophyll</name>
-		<description>Doubles this Pokémon's Speed in harsh sunlight.
-		</description>
+		<description>Doubles this Pokémon's Speed in harsh sunlight.</description>
 	</ability>
 	<ability>
 		<name>Clear Body</name>
-		<description>Prevents other Pokémon from lowering its stats.
-		</description>
+		<description>Prevents other Pokémon from lowering its stats.</description>
 	</ability>
 	<ability>
 		<name>Cloud Nine</name>
@@ -69,13 +58,11 @@
 	</ability>
 	<ability>
 		<name>Color Change</name>
-		<description>The Pokémon's type becomes the type of the move used on
-			it.</description>
+		<description>The Pokémon's type becomes the type of the move used on it.</description>
 	</ability>
 	<ability>
 		<name>Compound Eyes</name>
-		<description>This Pokémon's accuracy is boosted by 1.3x. While leading
-			the party, wild Pokémon hold items more often.</description>
+		<description>This Pokémon's accuracy is boosted by 1.3x. While leading the party, wild Pokémon hold items more often.</description>
 	</ability>
 	<ability>
 		<name>Contrary</name>
@@ -83,14 +70,11 @@
 	</ability>
 	<ability>
 		<name>Cursed Body</name>
-		<description> When hit by a contact move, there is a 30% chance the
-			opponent will unable to use that move for 4 turns.</description>
+		<description> When hit by a contact move, there is a 30% chance the opponent will unable to use that move for 4 turns.</description>
 	</ability>
 	<ability>
 		<name>Cute Charm</name>
-		<description>When hit by a contact move, there is a 30% chance the
-			opponent will be infatuated if the opponent is the opposite gender.
-		</description>
+		<description>When hit by a contact move, there is a 30% chance the opponent will be infatuated if the opponent is the opposite gender.</description>
 	</ability>
 	<ability>
 		<name>Damp</name>
@@ -98,35 +82,27 @@
 	</ability>
 	<ability>
 		<name>Defeatist</name>
-		<description>Halves this Pokémon's Attack and Special Attack when
-			below half HP.</description>
+		<description>Halves this Pokémon's Attack and Special Attack when below half HP.</description>
 	</ability>
 	<ability>
 		<name>Defiant</name>
-		<description>Boosts this Pokémon's Attack stat by two stages when its
-			stats are lowered.</description>
+		<description>Boosts this Pokémon's Attack stat by two stages when its stats are lowered.</description>
 	</ability>
 	<ability>
 		<name>Download</name>
-		<description>Raises either the Attack stat or Special Attack stat by
-			one stage depending on the foe's lowest current defensive stat.
-		</description>
+		<description>Raises either the Attack stat or Special Attack stat by one stage depending on the foe's lowest current defensive stat.</description>
 	</ability>
 	<ability>
 		<name>Drizzle</name>
-		<description>This Pokémon summons rain when it enters a battle.
-		</description>
+		<description>This Pokémon summons rain when it enters a battle.</description>
 	</ability>
 	<ability>
 		<name>Drought</name>
-		<description>This Pokémon summons harsh sunlight when it enters a
-			battle.</description>
+		<description>This Pokémon summons harsh sunlight when it enters a battle.</description>
 	</ability>
 	<ability>
 		<name>Dry Skin</name>
-		<description>Restores HP in rain or when hit by Water-type moves.
-			Reduces HP in harsh sunlight, and increases the damage received from
-			Fire-type moves.</description>
+		<description>Restores HP in rain or when hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves.</description>
 	</ability>
 	<ability>
 		<name>Early Bird</name>
@@ -134,38 +110,31 @@
 	</ability>
 	<ability>
 		<name>Effect Spore</name>
-		<description>When hit by a contact move, there is a 30% the opponent
-			will be poisoned, paralyzed, or put to sleep.</description>
+		<description>When hit by a contact move, there is a 30% the opponent will be poisoned, paralyzed, or put to sleep.</description>
 	</ability>
 	<ability>
 		<name>Filter</name>
-		<description>Reduces damage from supereffective attacks by 25%.
-		</description>
+		<description>Reduces damage from super effective attacks by 25%.</description>
 	</ability>
 	<ability>
 		<name>Flame Body</name>
-		<description>When hit by a contact move, there is a 30% chance the
-			opponent will be burned.</description>
+		<description>When hit by a contact move, there is a 30% chance the opponent will be burned.</description>
 	</ability>
 	<ability>
 		<name>Flare Boost</name>
-		<description> Boosts the power of special moves by 50% if this Pokémon
-			is burned.</description>
+		<description> Boosts the power of special moves by 50% if this Pokémon is burned.</description>
 	</ability>
 	<ability>
 		<name>Flash Fire</name>
-		<description>Powers up the Pokémon's Fire type moves if it's hit by
-			one, instead of taking damage.</description>
+		<description>Powers up the Pokémon's Fire type moves if it's hit by one, instead of taking damage.</description>
 	</ability>
 	<ability>
 		<name>Flower Gift</name>
-		<description>Boosts the Attack and Sp. Def stats by 1/5x of itself and
-			allies in harsh sunlight.</description>
+		<description>Boosts the Attack and Sp. Def stats by 1/5x of itself and allies in harsh sunlight.</description>
 	</ability>
 	<ability>
 		<name>Forecast</name>
-		<description>This Pokémon transforms with the weather to change its
-			type to Water, Fire, or Ice.</description>
+		<description>This Pokémon transforms with the weather to change its type to Water, Fire, or Ice.</description>
 	</ability>
 	<ability>
 		<name>Forewarn</name>
@@ -181,24 +150,19 @@
 	</ability>
 	<ability>
 		<name>Gluttony</name>
-		<description>Makes this Pokémon eat a held Berry when its HP drops to
-			half or less.</description>
+		<description>Makes this Pokémon eat a held Berry when its HP drops to half or less.</description>
 	</ability>
 	<ability>
 		<name>Guts</name>
-		<description>Boosts the Attack stat by 50% if this Pokémon has a
-			status condition. Burns do not lower the Attack stat.</description>
+		<description>Boosts the Attack stat by 50% if this Pokémon has a status condition. Burns do not lower the Attack stat.</description>
 	</ability>
 	<ability>
 		<name>Harvest</name>
-		<description>After using a Berry, there is a 50% chance at the end of
-			each turn it will create a new Berry, and is guaranteed in harsh
-			sunlight.</description>
+		<description>After using a Berry, there is a 50% chance at the end of each turn it will create a new Berry, and is guaranteed in harsh sunlight.</description>
 	</ability>
 	<ability>
 		<name>Healer</name>
-		<description>At the end of each turn, there is a 30% chance of curing
-			an ally's status condition.</description>
+		<description>At the end of each turn, there is a 30% chance of curing an ally's status condition.</description>
 	</ability>
 	<ability>
 		<name>Heatproof</name>
@@ -210,8 +174,7 @@
 	</ability>
 	<ability>
 		<name>Honey Gather</name>
-		<description>This Pokémon may gather Honey after a battle.
-		</description>
+		<description>This Pokémon may gather Honey after a battle.</description>
 	</ability>
 	<ability>
 		<name>Huge Power</name>
@@ -219,8 +182,7 @@
 	</ability>
 	<ability>
 		<name>Hustle</name>
-		<description>Boosts the Attack stat by 50%, but lowers accuracy by
-			20%.</description>
+		<description>Boosts the Attack stat by 50%, but lowers accuracy by 20%.</description>
 	</ability>
 	<ability>
 		<name>Hydration</name>
@@ -228,38 +190,31 @@
 	</ability>
 	<ability>
 		<name>Hyper Cutter</name>
-		<description>Prevents other Pokémon from lowering its Attack stat.
-		</description>
+		<description>Prevents other Pokémon from lowering its Attack stat.</description>
 	</ability>
 	<ability>
 		<name>Ice Body</name>
-		<description> This Pokémon regains HP 1/16th of its max HP per turn in
-			hail, and takes no damage from hailstorms.</description>
+		<description> This Pokémon regains HP 1/16th of its max HP per turn in hail, and takes no damage from hailstorms.</description>
 	</ability>
 	<ability>
 		<name>Illuminate</name>
-		<description>Doubles the likelihood of meeting wild Pokémon while
-			leading the party.</description>
+		<description>Doubles the likelihood of meeting wild Pokémon while leading the party.</description>
 	</ability>
 	<ability>
 		<name>Illusion</name>
-		<description>Comes out disguised as the Pokémon in the party's last
-			spot, and loses the illusion when hit.</description>
+		<description>Comes out disguised as the Pokémon in the party's last spot, and loses the illusion when hit.</description>
 	</ability>
 	<ability>
 		<name>Immunity</name>
-		<description>Prevents this Pokémon from getting poisoned.
-		</description>
+		<description>Prevents this Pokémon from getting poisoned.</description>
 	</ability>
 	<ability>
 		<name>Imposter</name>
-		<description>This Pokémon transforms itself into the Pokémon it's
-			facing.</description>
+		<description>This Pokémon transforms itself into the Pokémon it's facing.</description>
 	</ability>
 	<ability>
 		<name>Infiltrator</name>
-		<description>Ignores the effects of a target's Reflect, Light Screen,
-			Safeguard, and Mist.</description>
+		<description>Ignores the effects of a target's Reflect, Light Screen, Safeguard, and Mist.</description>
 	</ability>
 	<ability>
 		<name>Inner Focus</name>
@@ -271,13 +226,11 @@
 	</ability>
 	<ability>
 		<name>Intimidate</name>
-		<description>Lowers the opposing Pokémon's Attack stat by one stage
-			upon entering battle.</description>
+		<description>Lowers the opposing Pokémon's Attack stat by one stage upon entering battle.</description>
 	</ability>
 	<ability>
 		<name>Iron Barbs</name>
-		<description> When hit by a contact move, the opponent takes 1/8th of
-			its max HP in damage.</description>
+		<description> When hit by a contact move, the opponent takes 1/8th of its max HP in damage.</description>
 	</ability>
 	<ability>
 		<name>Iron Fist</name>
@@ -285,13 +238,11 @@
 	</ability>
 	<ability>
 		<name>Justified</name>
-		<description>Boosts the Attack stat by one stage when it's hit by a
-			Dark type move.</description>
+		<description>Boosts the Attack stat by one stage when it's hit by a Dark type move.</description>
 	</ability>
 	<ability>
 		<name>Keen Eye</name>
-		<description>Prevent other Pokémon from lowering this Pokémon's
-			accuracy.</description>
+		<description>Prevent other Pokémon from lowering this Pokémon's accuracy.</description>
 	</ability>
 	<ability>
 		<name>Klutz</name>
@@ -299,13 +250,11 @@
 	</ability>
 	<ability>
 		<name>Leaf Guard</name>
-		<description>Prevents status conditions in harsh sunshine weather.
-		</description>
+		<description>Prevents status conditions in harsh sunshine weather.</description>
 	</ability>
 	<ability>
 		<name>Levitate</name>
-		<description>Gives full immunity to all Ground-type moves.
-		</description>
+		<description>Gives full immunity to all Ground-type moves.</description>
 	</ability>
 	<ability>
 		<name>Light Metal</name>
@@ -313,9 +262,7 @@
 	</ability>
 	<ability>
 		<name>Lightning Rod</name>
-		<description>This Pokémon draws in all Electric-type moves. Instead of
-			being hit by Electric-type moves, it boosts its Sp. Atk.
-		</description>
+		<description>This Pokémon draws in all Electric-type moves. Instead of being hit by Electric-type moves, it boosts its Sp. Atk.</description>
 	</ability>
 	<ability>
 		<name>Limber</name>
@@ -327,8 +274,7 @@
 	</ability>
 	<ability>
 		<name>Magic Bounce</name>
-		<description>Reflects status moves, instead of getting hit by them.
-		</description>
+		<description>Reflects status moves, instead of getting hit by them.</description>
 	</ability>
 	<ability>
 		<name>Magic Guard</name>
@@ -344,13 +290,11 @@
 	</ability>
 	<ability>
 		<name>Marvel Scale</name>
-		<description>Boosts the Defense stat by 50% if this Pokémon has a
-			status condition.</description>
+		<description>Boosts the Defense stat by 50% if this Pokémon has a status condition.</description>
 	</ability>
 	<ability>
 		<name>Minus</name>
-		<description>Boosts Sp. Atk by 50% if an ally Pokémon has Plus or
-			Minus.</description>
+		<description>Boosts Sp. Atk by 50% if an ally Pokémon has Plus or Minus.</description>
 	</ability>
 	<ability>
 		<name>Mold Breaker</name>
@@ -358,48 +302,39 @@
 	</ability>
 	<ability>
 		<name>Moody</name>
-		<description>Raises one stat by two stages and lowers another by one
-			every turn.</description>
+		<description>Raises one stat by two stages and lowers another by one every turn.</description>
 	</ability>
 	<ability>
 		<name>Motor Drive</name>
-		<description>Boosts its Speed stat if hit by an Electric-type move,
-			instead of taking damage.</description>
+		<description>Boosts its Speed stat if hit by an Electric-type move, instead of taking damage.</description>
 	</ability>
 	<ability>
 		<name>Moxie</name>
-		<description>Boosts the Attack stat by one stage after knocking out
-			any Pokémon.</description>
+		<description>Boosts the Attack stat by one stage after knocking out any Pokémon.</description>
 	</ability>
 	<ability>
 		<name>Multiscale</name>
-		<description>This Pokémon takes half damage while its HP is full.
-		</description>
+		<description>This Pokémon takes half damage while its HP is full.</description>
 	</ability>
 	<ability>
 		<name>Multitype</name>
-		<description>Changes this Pokémon's type to match the Plate it holds.
-		</description>
+		<description>Changes this Pokémon's type to match the Plate it holds.</description>
 	</ability>
 	<ability>
 		<name>Mummy</name>
-		<description>When hit by a contact move, the opponent gains Mummy as
-			its ability.</description>
+		<description>When hit by a contact move, the opponent gains Mummy as its ability.</description>
 	</ability>
 	<ability>
 		<name>Natural Cure</name>
-		<description>All status problems heal when it switches out.
-		</description>
+		<description>All status problems heal when it switches out.</description>
 	</ability>
 	<ability>
 		<name>No Guard</name>
-		<description>Ensures attacks by or against this Pokémon land.
-		</description>
+		<description>Ensures attacks by or against this Pokémon land.</description>
 	</ability>
 	<ability>
 		<name>Normalize</name>
-		<description>All of this Pokémon's moves become the Normal type.
-		</description>
+		<description>All of this Pokémon's moves become the Normal type.</description>
 	</ability>
 	<ability>
 		<name>None</name>
@@ -407,8 +342,7 @@
 	</ability>
 	<ability>
 		<name>Overcoat</name>
-		<description>Protects this Pokémon from damage from weather.
-		</description>
+		<description>Protects this Pokémon from damage from weather.</description>
 	</ability>
 	<ability>
 		<name>Overgrow</name>
@@ -417,39 +351,31 @@
 	</ability>
 	<ability>
 		<name>Own Tempo</name>
-		<description>Prevents this Pokémon from becoming confused.
-		</description>
+		<description>Prevents this Pokémon from becoming confused.</description>
 	</ability>
 	<ability>
 		<name>Pickpocket</name>
-		<description>When hit by a contact move, this Pokémon will steal the
-			opponent's item.</description>
+		<description>When hit by a contact move, this Pokémon will steal the opponent's item.</description>
 	</ability>
 	<ability>
 		<name>Pickup</name>
-		<description>This Pokémon may pick up the item an opposing Pokémon
-			used during a battle. It may pick up items outside of battle, too.
-		</description>
+		<description>This Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too.</description>
 	</ability>
 	<ability>
 		<name>Plus</name>
-		<description>Boosts Sp. Atk by 50% if an ally Pokémon has Plus or
-			Minus.</description>
+		<description>Boosts Sp. Atk by 50% if an ally Pokémon has Plus or Minus.</description>
 	</ability>
 	<ability>
 		<name>Poison Heal</name>
-		<description>Restores HP by 1/8th per turn if this Pokémon is
-			poisoned.</description>
+		<description>Restores HP by 1/8th per turn if this Pokémon is poisoned.</description>
 	</ability>
 	<ability>
 		<name>Poison Point</name>
-		<description>When hit by a contact move, there is a 30% chance the
-			opponent will be poisoned.</description>
+		<description>When hit by a contact move, there is a 30% chance the opponent will be poisoned.</description>
 	</ability>
 	<ability>
 		<name>Poison Touch</name>
-		<description>When landing a contact move, there is a 30% chance the
-			opponent will be poisoned.</description>
+		<description>When landing a contact move, there is a 30% chance the opponent will be poisoned.</description>
 	</ability>
 	<ability>
 		<name>Prankster</name>
@@ -465,33 +391,27 @@
 	</ability>
 	<ability>
 		<name>Quick Feet</name>
-		<description>Boosts the Speed stat by 50% if this Pokémon has a status
-			condition. Paralysis does not lower the Speed stat.</description>
+		<description>Boosts the Speed stat by 50% if this Pokémon has a status condition. Paralysis does not lower the Speed stat.</description>
 	</ability>
 	<ability>
 		<name>Rain Dish</name>
-		<description>This Pokémon regains HP 1/16th of its max HP per turn in
-			rain.</description>
+		<description>This Pokémon regains HP 1/16th of its max HP per turn in rain.</description>
 	</ability>
 	<ability>
 		<name>Rattled</name>
-		<description>When hit by Dark, Ghost, or Bug type moves, this
-			Pokémon's Speed stat raises by one stage.</description>
+		<description>When hit by Dark, Ghost, or Bug type moves, this Pokémon's Speed stat raises by one stage.</description>
 	</ability>
 	<ability>
 		<name>Reckless</name>
-		<description>Powers up moves that have recoil damage by 20%.
-		</description>
+		<description>Powers up moves that have recoil damage by 20%.</description>
 	</ability>
 	<ability>
 		<name>Regenerator</name>
-		<description>Restores a 1/3rd of its max HP when withdrawn from
-			battle.</description>
+		<description>Restores a 1/3rd of its max HP when withdrawn from battle.</description>
 	</ability>
 	<ability>
 		<name>Rivalry</name>
-		<description>Deals 25% more damage to Pokémon of the same gender, but
-			deals 25% less to Pokémon of the opposite gender.</description>
+		<description>Deals 25% more damage to Pokémon of the same gender, but deals 25% less to Pokémon of the opposite gender.</description>
 	</ability>
 	<ability>
 		<name>Rock Head</name>
@@ -499,8 +419,7 @@
 	</ability>
 	<ability>
 		<name>Rough Skin</name>
-		<description>When hit by a contact move, the opponent takes 1/16th of
-			its max HP in damage.</description>
+		<description>When hit by a contact move, the opponent takes 1/16th of its max HP in damage.</description>
 	</ability>
 	<ability>
 		<name>Run Away</name>
@@ -508,13 +427,11 @@
 	</ability>
 	<ability>
 		<name>Sand Force</name>
-		<description>Boosts the power of Rock, Ground, and Steel type moves by
-			30% in a sandstorm.</description>
+		<description>Boosts the power of Rock, Ground, and Steel type moves by 30% in a sandstorm.</description>
 	</ability>
 	<ability>
 		<name>Sand Rush</name>
-		<description>Doubles this Pokémon's Speed in a sandstorm.
-		</description>
+		<description>Doubles this Pokémon's Speed in a sandstorm.</description>
 	</ability>
 	<ability>
 		<name>Sand Stream</name>
@@ -522,23 +439,19 @@
 	</ability>
 	<ability>
 		<name>Sand Veil</name>
-		<description>Boosts the Pokémon's evasion in a sandstorm by 20%, and
-			take no damage from sandstorms.</description>
+		<description>Boosts the Pokémon's evasion in a sandstorm by 20%, and take no damage from sandstorms.</description>
 	</ability>
 	<ability>
 		<name>Sap Sipper</name>
-		<description>Boosts the Attack stat if hit by a Grass type move,
-			instead of taking damage.</description>
+		<description>Boosts the Attack stat if hit by a Grass type move, instead of taking damage.</description>
 	</ability>
 	<ability>
 		<name>Scrappy</name>
-		<description>Makes Normal and Fighting type moves hit Ghost type
-			Pokémon.</description>
+		<description>Makes Normal and Fighting type moves hit Ghost type Pokémon.</description>
 	</ability>
 	<ability>
 		<name>Serene Grace</name>
-		<description>Doubles the chances of a move's secondary effect to
-			occur.</description>
+		<description>Doubles the chances of a move's secondary effect to occur.</description>
 	</ability>
 	<ability>
 		<name>Shadow Tag</name>
@@ -546,38 +459,31 @@
 	</ability>
 	<ability>
 		<name>Shed Skin</name>
-		<description>At the end of each turn, this Pokémon has a 1/3 chance of
-			curing its status condition.</description>
+		<description>At the end of each turn, this Pokémon has a 1/3 chance of curing its status condition.</description>
 	</ability>
 	<ability>
 		<name>Sheer Force</name>
-		<description>Removes the secondary effects of moves, and boosts the
-			power of those moves by 30%.</description>
+		<description>Removes the secondary effects of moves, and boosts the power of those moves by 30%.</description>
 	</ability>
 	<ability>
 		<name>Sheild Dust</name>
-		<description>Blocks the secondary effects of attacks taken.
-		</description>
+		<description>Blocks the secondary effects of attacks taken.</description>
 	</ability>
 	<ability>
 		<name>Shell Armor</name>
-		<description>This Pokémon is protected against critical hits.
-		</description>
+		<description>This Pokémon is protected against critical hits.</description>
 	</ability>
 	<ability>
 		<name>Simple</name>
-		<description>The stat changes the Pokémon receives are doubled.
-		</description>
+		<description>The stat changes the Pokémon receives are doubled.</description>
 	</ability>
 	<ability>
 		<name>Skill Link</name>
-		<description>Maximizes the number of times multi-strike moves hit.
-		</description>
+		<description>Maximizes the number of times multi-strike moves hit.</description>
 	</ability>
 	<ability>
 		<name>Slow Start</name>
-		<description>For five turns, the Pokémon's Attack and Speed stats are
-			halved.</description>
+		<description>For five turns, the Pokémon's Attack and Speed stats are halved.</description>
 	</ability>
 	<ability>
 		<name>Sniper</name>
@@ -585,54 +491,43 @@
 	</ability>
 	<ability>
 		<name>Snow Cloak</name>
-		<description>Boosts the Pokémon's evasion in a hailstorm by 20%, and
-			take no damage from hailstorms.</description>
+		<description>Boosts the Pokémon's evasion in a hailstorm by 20%, and take no damage from hailstorms.</description>
 	</ability>
 	<ability>
 		<name>Snow Warning</name>
-		<description>This Pokémon summons a hailstorm when it enters a battle.
-		</description>
+		<description>This Pokémon summons a hailstorm when it enters a battle.</description>
 	</ability>
 	<ability>
 		<name>Solar Power</name>
-		<description>Boosts the Special Attack stat by 1.5x in harsh sunlight,
-			but takes 1/8 of its maximum HP at the end of each turn.
-		</description>
+		<description>Boosts the Special Attack stat by 1.5x in harsh sunlight, but takes 1/8 of its maximum HP at the end of each turn.</description>
 	</ability>
 	<ability>
 		<name>Solid Rock</name>
-		<description> Reduces damage from supereffective attacks by 25%.
-		</description>
+		<description> Reduces damage from supereffective attacks by 25%.</description>
 	</ability>
 	<ability>
 		<name>Soundproof</name>
-		<description>Gives full immunity to all sound based moves.
-		</description>
+		<description>Gives full immunity to all sound based moves.</description>
 	</ability>
 	<ability>
 		<name>Speed Boost</name>
-		<description>At the end of each turn, this Pokémon's Speed is raised
-			by one stage.</description>
+		<description>At the end of each turn, this Pokémon's Speed is raised by one stage.</description>
 	</ability>
 	<ability>
 		<name>Stall</name>
-		<description>This Pokémon moves after all other Pokémon do.
-		</description>
+		<description>This Pokémon moves after all other Pokémon do.</description>
 	</ability>
 	<ability>
 		<name>Static</name>
-		<description>When hit by a contact move, there is a 30% chance the
-			opponent will be paralyzed.</description>
+		<description>When hit by a contact move, there is a 30% chance the opponent will be paralyzed.</description>
 	</ability>
 	<ability>
 		<name>Steadfast</name>
-		<description>Raises Speed by one stage each time this Pokémon
-			flinches.</description>
+		<description>Raises Speed by one stage each time this Pokémon flinches.</description>
 	</ability>
 	<ability>
 		<name>Stench</name>
-		<description>This Pokémon has a 10% chance of making the target flinch
-			when hit by a damaging move.</description>
+		<description>This Pokémon has a 10% chance of making the target flinch when hit by a damaging move.</description>
 	</ability>
 	<ability>
 		<name>Sticky Hold</name>
@@ -640,13 +535,11 @@
 	</ability>
 	<ability>
 		<name>Storm Drain</name>
-		<description>Draws in all Water-type moves. Instead of being hit by
-			Water-type moves, it boosts its Sp. Atk.</description>
+		<description>Draws in all Water-type moves. Instead of being hit by Water-type moves, it boosts its Sp. Atk.</description>
 	</ability>
 	<ability>
 		<name>Sturdy</name>
-		<description>This Pokémon cannot be knocked out with one hit.
-		</description>
+		<description>This Pokémon cannot be knocked out with one hit.</description>
 	</ability>
 	<ability>
 		<name>Suction Cups</name>
@@ -654,13 +547,11 @@
 	</ability>
 	<ability>
 		<name>Super Luck</name>
-		<description>Boosts the critical-hit ratios of moves by 1 stage.
-		</description>
+		<description>Boosts the critical-hit ratios of moves by 1 stage.</description>
 	</ability>
 	<ability>
 		<name>Swarm</name>
-		<description>Powers up Bug type moves by 50% when this Pokémon's HP is
-			at a third or lower.</description>
+		<description>Powers up Bug type moves by 50% when this Pokémon's HP is at a third or lower.</description>
 	</ability>
 	<ability>
 		<name>Swift Swim</name>
@@ -668,18 +559,15 @@
 	</ability>
 	<ability>
 		<name>Synchronize</name>
-		<description>Passes a burn, poison, or paralysis to the foe.
-		</description>
+		<description>Passes a burn, poison, or paralysis to the foe.</description>
 	</ability>
 	<ability>
 		<name>Tangled Feet</name>
-		<description>This Pokémon half as likely to get hit while confused.
-		</description>
+		<description>This Pokémon half as likely to get hit while confused.</description>
 	</ability>
 	<ability>
 		<name>Technician</name>
-		<description>Increases the power of moves with 60 or less power by
-			50%.</description>
+		<description>Increases the power of moves with 60 or less power by 50%.</description>
 	</ability>
 	<ability>
 		<name>Telepathy</name>
@@ -691,28 +579,23 @@
 	</ability>
 	<ability>
 		<name>Thick Fat</name>
-		<description>Halves the damage taken from Fire and Ice type moves.
-		</description>
+		<description>Halves the damage taken from Fire and Ice type moves.</description>
 	</ability>
 	<ability>
 		<name>Tinted Lens</name>
-		<description>Doubles the power of "not very effective" moves.
-		</description>
+		<description>Doubles the power of "not very effective" moves.</description>
 	</ability>
 	<ability>
 		<name>Torrent</name>
-		<description>Powers up Water type moves by 50% when this Pokémon's HP
-			is at a third or lower.</description>
+		<description>Powers up Water type moves by 50% when this Pokémon's HP is at a third or lower.</description>
 	</ability>
 	<ability>
 		<name>Toxic Boost</name>
-		<description>Boosts the power of physical moves by 50% if this Pokémon
-			is poisoned.</description>
+		<description>Boosts the power of physical moves by 50% if this Pokémon is poisoned.</description>
 	</ability>
 	<ability>
 		<name>Trace</name>
-		<description>When it enters a battle, this Pokémon copies an opposing
-			Pokémon's Ability.</description>
+		<description>When it enters a battle, this Pokémon copies an opposing Pokémon's Ability.</description>
 	</ability>
 	<ability>
 		<name>Truant</name>
@@ -724,13 +607,11 @@
 	</ability>
 	<ability>
 		<name>Unaware</name>
-		<description>Ignores the opposing Pokémon's stat changes.
-		</description>
+		<description>Ignores the opposing Pokémon's stat changes.</description>
 	</ability>
 	<ability>
 		<name>Unburden</name>
-		<description>Doubles the Speed stat if its held item is used or lost.
-		</description>
+		<description>Doubles the Speed stat if its held item is used or lost.</description>
 	</ability>
 	<ability>
 		<name>Unnerve</name>
@@ -738,8 +619,7 @@
 	</ability>
 	<ability>
 		<name>Victory Star</name>
-		<description>Boosts the accuracy of its allies and itself by 10%.
-		</description>
+		<description>Boosts the accuracy of its allies and itself by 10%.</description>
 	</ability>
 	<ability>
 		<name>Vital Spirit</name>
@@ -751,27 +631,22 @@
 	</ability>
 	<ability>
 		<name>Weak Armor</name>
-		<description>Physical attacks lower this Pokémon's Defense by one
-			stage and raises Speed by one stage.</description>
+		<description>Physical attacks lower this Pokémon's Defense by one stage and raises Speed by one stage.</description>
 	</ability>
 	<ability>
 		<name>White Smoke</name>
-		<description>Prevents other Pokémon from lowering its stats.
-		</description>
+		<description>Prevents other Pokémon from lowering its stats.</description>
 	</ability>
 	<ability>
 		<name>Wonder Guard</name>
-		<description>Only super effective moves will hit this Pokémon.
-		</description>
+		<description>Only super effective moves will hit this Pokémon.</description>
 	</ability>
 	<ability>
 		<name>Wonder Skin</name>
-		<description>Lowers the accuracy of status moves used against this
-			Pokémon to 50%.</description>
+		<description>Lowers the accuracy of status moves used against this Pokémon to 50%.</description>
 	</ability>
 	<ability>
 		<name>Zen Mode</name>
-		<description>Changes this Pokémon's form when HP is half or less.
-		</description>
+		<description>Changes this Pokémon's form when HP is half or less.</description>
 	</ability>
 </abilities>
