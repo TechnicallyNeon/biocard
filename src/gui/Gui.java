@@ -1,10 +1,17 @@
 package gui;
 
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics2D;
 import java.awt.GridLayout;
+import java.awt.RenderingHints;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 
+import javax.imageio.ImageIO;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -20,6 +27,12 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
+import card.BackgroundUtil;
+import card.DrawMisc;
+import card.ImageTextWriter;
+import card.StatBlockUtil;
+import card.Type;
 
 /**
  * Gui class that runs the application
@@ -42,7 +55,9 @@ public class Gui extends JFrame
 	/**
 	 * JComboBoxes used for more restricted user selection
 	 */
-	private static JComboBox<String> type1, type2, genderRatio, ability1, ability2;
+	private static JComboBox<card.Type> type1, type2;
+
+	private static JComboBox<String> genderRatio, ability1, ability2; 
 
 	/**
 	 * JButton used for signaling to the application to create a card with the given information
@@ -105,10 +120,10 @@ public class Gui extends JFrame
 		lvlup2 = new JTextField();
 
 		// JComboBoxes
-		String[] types = card.Type.getAllTypes();
-		type1 = new JComboBox<String>(types); // Has all types
-		type2 = new JComboBox<String>(); // Has all types plus a "No second type" as the default
-		type2.addItem("No second type");
+		card.Type[] types = card.Type.getAllTypes();
+		type1 = new JComboBox<card.Type>(types); // Has all types
+		type2 = new JComboBox<card.Type>(); // Has all types plus a "No second type" as the default
+		type2.addItem(card.Type.NULL);
 		int length = types.length;
 		for(int i = 0; i < length; i++)
 			type2.addItem(types[i]);
@@ -253,13 +268,11 @@ public class Gui extends JFrame
 	{
 		private SummaryButtonAction()
 		{
-			// TODO Create needed JTextAreas
 		}
 
 		@Override
 		public void actionPerformed(ActionEvent e)
 		{
-			// TODO Ability to add abilities
 		}
 	}
 
@@ -268,7 +281,78 @@ public class Gui extends JFrame
 		@Override
 		public void actionPerformed(ActionEvent arg0)
 		{
-			// TODO Create card
+			// Get values from input
+			String nameStr = name.getText();
+			int[] stats = {
+					Integer.valueOf(hp.getText()), Integer.valueOf(atk.getText()), Integer.valueOf(def.getText()),
+					Integer.valueOf(spAtk.getText()), Integer.valueOf(spDef.getText()), Integer.valueOf(spe.getText())
+			};
+			try { int numStages = Integer.valueOf(evoCount.getText()); }
+			catch (NumberFormatException e) { System.out.println("Please provide how many stages there are. "); }
+			String firstlvlup = lvlup1.getText(), secondlvlup = lvlup2.getText();
+			int cr = Integer.valueOf(catchRate.getText());
+			String i1 = item1.getText(), i2 = item2.getText();
+			int d1 = Integer.valueOf(itemRate1.getText()), d2 = Integer.valueOf(itemRate2.getText());
+			String abil1 = (String) ability1.getSelectedItem(), abil2 = (String) ability2.getSelectedItem();
+			boolean h1 = hidden1.isSelected(), h2 = hidden2.isSelected();
+			
+					
+			// create card
+			// card background
+			BufferedImage result = null;
+			card.Type t1 = (card.Type) type1.getSelectedItem(), t2 = (card.Type) type2.getSelectedItem();
+			if ((t2).getType().equals(card.Type.NULL.getType()))
+				result = BackgroundUtil.create(t1);
+			else
+				result = BackgroundUtil.create(t1, t2);
+			Graphics2D g2 = (Graphics2D) result.getGraphics();
+			g2.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON); // antialiasing on text
+			g2.setColor(Color.BLACK); // black text
+
+			// draw type icon
+			if ((t2).getType().equals(card.Type.NULL.getType()))
+				DrawMisc.drawIcon(g2, 809, 80, t1);
+			else
+			{
+				DrawMisc.drawIcon(g2, 809, 41, t1);
+				DrawMisc.drawIcon(g2, 809, 119, t2);
+			}
+
+			// draw items
+			g2.setFont(new Font("Calibri", Font.BOLD, 32));
+			if (!i1.equals(""))
+			{
+				DrawMisc.drawItem(g2, 1519, 292, i1);
+				ImageTextWriter.writeText(g2, 1569, 338, 500, " (" + d1 + "%)", true);
+			}
+			if (!i2.equals(""))
+				DrawMisc.drawItem(g2, 1519, 345, i2);
+				ImageTextWriter.writeText(g2, 1569, 391, 500, " (" + d2 + "%)", true);
+			
+			// draw gender ratio
+			DrawMisc.drawGenderRatio(g2, 0, 0, (String) genderRatio.getSelectedItem());
+			
+			// draw stats
+			StatBlockUtil.drawStats(result, 913, 464, stats);
+			
+			
+			
+
+			// Writing text
+			// Write name
+			g2.setFont(new Font("Calibri", Font.BOLD, 48));
+			ImageTextWriter.writeText(g2, 97, 51, 500, nameStr, true);
+			// Write ability name
+			
+			
+			
+			try
+			{
+				System.out.println(ImageIO.write(result, "png", new File(nameStr+".png")));
+			} catch (IOException e)
+			{
+				System.out.println(false);
+			}
 		}
 	}
 }
