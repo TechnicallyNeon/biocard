@@ -10,7 +10,7 @@ import java.io.IOException;
 
 /**
  * 
- * @author Nynon
+ * @author TechnicallyNeon
  *
  */
 public class StatBlockUtil 
@@ -59,7 +59,7 @@ public class StatBlockUtil
      * @param stats - a given int array for how the stat bars will be drawn. It is given in the format [hp, attack, defense, special attack, special defense, speed].
      * @throws IOException
      */
-    public static void drawStats(BufferedImage image, int x, int y, int[] stats) throws IOException
+    public static void drawStats(BufferedImage image, int x, int y, int[] stats)
     {
         Graphics2D graphics = (Graphics2D) image.getGraphics();
 		graphics.setColor(Color.BLACK);
