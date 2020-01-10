@@ -8,7 +8,7 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 public class BackgroundUtil
-{
+{	
 	private BackgroundUtil()
 	{
 	}
@@ -20,15 +20,15 @@ public class BackgroundUtil
 	 */
 	public static BufferedImage create(Type type)
 	{
+		BufferedImage result = null;
 		try
 		{
-			return ImageIO.read(new File(type.getType() + "_bg.png"));
-		} 
-		catch (IOException e)
+			result = ImageIO.read(new File("components/type_bg/" + type.getType() + "_bg.png"));
+		} catch (IOException e)
 		{
-			System.out.println("Could not find file \"" + type.getType() + "_bg.png\"");
-			return null;
+			System.out.println("Could not read file components/type_bg" + type.getType() + "_bg.png");
 		}
+		return result;
 	}
 	
 	/**
@@ -39,30 +39,9 @@ public class BackgroundUtil
 	 */
 	public static BufferedImage create(Type type1, Type type2)
 	{
-		BufferedImage type1img, type2img, result;
-		// Try to read the first given types asset file
-		try
-		{
-			type1img = ImageIO.read(new File(type1.getType() + "_bg.png"));
-		}
-		catch (IOException e)
-		{
-			System.out.println("Could not find file \"" + type1.getType() + "_bg.png\"");
-			return null;
-		}
-		// Try to read the second given types asset file
-		try
-		{
-			type2img = ImageIO.read(new File(type2.getType() + "_bg.png"));
-		}
-		catch (IOException e)
-		{
-			System.out.println("Could not find file \"" + type2.getType() + "_bg.png\"");
-			return null;
-		}
-		// Create new BufferedImage obj that is the be drawn onto
-		result = new BufferedImage(1920, 1080, BufferedImage.TYPE_INT_ARGB);
-		
+		BufferedImage type1img = create(type1), 
+				type2img = create(type2), 
+				result = new BufferedImage(1920, 1080, BufferedImage.TYPE_INT_ARGB);;		
 		
 		int height = type1img.getHeight(), width =  type1img.getWidth();
 		/*
