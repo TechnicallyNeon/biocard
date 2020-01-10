@@ -32,13 +32,15 @@ public enum Type
 		return typeName;
 	}
 	
-	public static String[] getAllTypes()
+	/**
+	 * Returns an array of all Type objects except null
+	 * @return - an array of all Type objects except null
+	 */
+	public static Type[] getAllTypes()
 	{
-		String[] arr = {
-			"Normal", "Fire", "Fighting", "Water", "Flying",
-			"Grass", "Poison", "Electric", "Ground", "Psychic",
-			"Rock", "Ice", "Bug", "Dragon", "Ghost", "Dark",
-			"Steel", "Fairy"
+		Type[] arr = {
+			NORMAL, FIRE, FIGHTING, WATER, FLYING, GRASS, POISON, ELECTRIC, GROUND, PSYCHIC, ROCK, ICE, BUG, DRAGON, 
+			GHOST, DARK, STEEL, FAIRY
 		};
 		return arr;
 	}
