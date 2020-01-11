@@ -74,4 +74,17 @@ public class DrawMisc
 			System.out.println("Could not read gender file " + file.getName());
 		}
 	}
+	
+	public static void drawAvatar(Graphics2D g2, int x, int y, int id) 
+	{
+		File file = new File("components/pokemon/" + EvoBlock.itoa(id) + ".png");
+		try
+		{
+			g2.drawImage(ImageIO.read(file), 75, 75, null);
+		}
+		catch (Exception e)
+		{
+			System.out.println("Could not read pokemon file " + file.getName());
+		}
+	}
 }
