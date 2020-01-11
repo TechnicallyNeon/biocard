@@ -298,7 +298,8 @@ public class Gui extends JFrame
 		@Override
 		public void actionPerformed(ActionEvent arg0)
 		{
-			// Get values from input
+			// Get values from input and verify types
+			// integers will send an error message if failed and default to zero
 			String nameStr = name.getText();
 			int idNum1 = 0, idNum2 = 0, idNum3 = 0, idCurr = 0;
 			try { idNum1 = Integer.valueOf(id1.getText()); } // retrieve and verify
@@ -336,11 +337,13 @@ public class Gui extends JFrame
 			catch (Exception e) { System.out.println("Please provide a valid drop rate."); }
 			String abil1 = (String) ability1.getSelectedItem(), abil2 = (String) ability2.getSelectedItem();
 			boolean h1 = hidden1.isSelected(), h2 = hidden2.isSelected();
+			System.out.println(h1);
+			System.out.println(abil1);
 			if (h1)
-				abil1 = "(Hidden)" + abil1;
+				abil1 = "(Hidden) " + abil1;
+			System.out.println(abil1);
 			if (h2)
-				abil2 = "(Hidden)" + abil2;
-			String abilityName1 = (String) ability1.getSelectedItem(), abilityName2 = (String) ability2.getSelectedItem();
+				abil2 = "(Hidden) " + abil2;
 			String abilityDesc1 = "", abilityDesc2 = "";
 			
 					
@@ -402,8 +405,8 @@ public class Gui extends JFrame
 			StatBlockUtil.drawStats(result, 913, 464, stats);
 			
 			// write ability names
-			ImageTextWriter.writeText(g2, 88, 782, 304, abilityName1, true);
-			ImageTextWriter.writeText(g2, 428, 782, 304, abilityName2, true);
+			ImageTextWriter.writeText(g2, 88, 782, 304, abil1, true);
+			ImageTextWriter.writeText(g2, 428, 782, 304, abil2, true);
 			
 			// write ability descriptions
 			NodeList abilityList = abilityDoc.getElementsByTagName("ability");
@@ -418,9 +421,9 @@ public class Gui extends JFrame
 						Node tagNode = tags.item(j);
 						if (tagNode.getNodeType() == Node.ELEMENT_NODE && tagNode.getNodeName().equals("name"))
 						{
-							if (tagNode.getTextContent().equals(abilityName1))
+							if (tagNode.getTextContent().equals(abil1))
 								abilityDesc1 = tags.item(j+2).getTextContent();
-							else if (tagNode.getTextContent().equals(abilityName2))
+							else if (tagNode.getTextContent().equals(abil2))
 								abilityDesc2 = tags.item(j+2).getTextContent();
 						}
 					}
@@ -429,12 +432,27 @@ public class Gui extends JFrame
 			ImageTextWriter.writeText(g2, 88, 782 + g2.getFontMetrics().getHeight(), 304, abilityDesc1, true);
 			ImageTextWriter.writeText(g2, 428, 782 + g2.getFontMetrics().getHeight(), 304, abilityDesc2, true);
 			
+			// write evo conditions
+			if (numStages == 2)
+				ImageTextWriter.writeText(g2, 1484-g2.getFontMetrics().stringWidth(secondlvlup)/2, 
+						122, 500, firstlvlup, false);
+			else if (numStages == 3)
+			{
+				ImageTextWriter.writeText(g2, 1343-g2.getFontMetrics().stringWidth(secondlvlup)/2, 
+						122, 500, firstlvlup, false);
+				ImageTextWriter.writeText(g2, 1625 - g2.getFontMetrics().stringWidth(secondlvlup)/2, 
+						122, 500, secondlvlup, false);
+			}
+				
 			try
 			{
-				System.out.println(ImageIO.write(result, "png", new File("user/"+nameStr+".png")));
+				if (ImageIO.write(result, "png", new File("user/"+EvoBlock.itoa(idCurr)+nameStr+".png")))
+					System.out.println("Finished making card.");
+				else
+					System.out.println("Image writing error occured. No valid image writer.");
 			} catch (IOException e)
 			{
-				System.out.println(false);
+				System.out.println("Image writing error occured.");
 			}
 		}
 	}

@@ -58,7 +58,7 @@ public class EvoBlock
 		}
 	}
 	
-	protected static String itoa(int i)
+	public static String itoa(int i)
 	{
 		String tempId = String.valueOf(i);
 		switch (tempId.length())
