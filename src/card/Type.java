@@ -5,7 +5,7 @@ public enum Type
 	/*
 	 * List of all potential types with respective strings given
 	 */
-	NORMAL("Normal"), FIRE("Fire"), FIGHTING("Fighting"), WATER("Water"), FLYING("Flying"), GRASS("Grass"), POISON("Posion"), 
+	NORMAL("Normal"), FIRE("Fire"), FIGHTING("Fighting"), WATER("Water"), FLYING("Flying"), GRASS("Grass"), POISON("Poison"), 
 	ELECTRIC("Electric"), GROUND("Ground"), PSYCHIC("Psychic"), ROCK("Rock"), ICE("Ice"), BUG("Bug"), DRAGON("Dragon"), 
 	GHOST("Ghost"), DARK("Dark"), STEEL("Steel"), FAIRY("Fairy"), NULL("Normal");
 	
