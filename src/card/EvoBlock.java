@@ -2,6 +2,7 @@ package card;
 
 import java.awt.Graphics2D;
 import java.awt.Image;
+import java.awt.image.BufferedImage;
 import java.io.File;
 
 import javax.imageio.ImageIO;
@@ -15,18 +16,26 @@ public class EvoBlock
 	
 	public static void create(Graphics2D g2, int id1, int id2, int id3, int stages, String evo1, String evo2)
 	{
-		File[] stageFiles = new File[stages];
+		File[] stageFiles = new File[stages]; // box icon files
+		// verify
 		try { stageFiles[0] = new File("components/box_icon/" + itoa(id1) + "MS.png"); }
 		catch (Exception e) { System.out.println("Could not read box icon for id " + id1); }
 		try { stageFiles[1] = new File("components/box_icon/" + itoa(id2) + "MS.png"); }
 		catch (Exception e) { System.out.println("Could not read box icon for id " + id2); }
 		try { stageFiles[2] = new File("components/box_icon/" + itoa(id3) + "MS.png"); }
 		catch (Exception e) { System.out.println("Could not read box icon for id " + id3); }
-		Image[] stageImages = new Image[stages];
+		BufferedImage[] stageImages = new BufferedImage[stages]; // box icon images
 		for (int i = 0; i < stages; i++)
 		{
-			try { stageImages[i] = ImageIO.read(stageFiles[i]); }
+			BufferedImage curr = null;
+			// read image file
+			try { curr = ImageIO.read(stageFiles[i]); } 
 			catch (Exception e) { System.out.println("Problems reading file " + stageFiles[i].getName()); }
+			// resize if necessary
+//			if (!Resizer.isSize(stageImages[i], 120, 120))
+//				Resizer.resize(curr, 120, 120);
+			stageImages[i] = curr;
+			
 		}
 		switch (stages)
 		{
